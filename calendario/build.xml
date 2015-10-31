@@ -7,8 +7,8 @@
     <property environment="env"/>
     <property name="ECLIPSE_HOME" value="../../../../../eclipse/"/>
     <property name="debuglevel" value="source,lines,vars"/>
-    <property name="target" value="1.6"/>
-    <property name="source" value="1.6"/>
+    <property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
     <path id="Apache Tomcat v6.0 [Apache Tomcat v6.0].libraryclasspath">
         <pathelement location="../../../../../apache-tomcat-6.0.36/lib/annotations-api.jar"/>
         <pathelement location="../../../../../apache-tomcat-6.0.36/lib/catalina-ant.jar"/>
@@ -37,6 +37,7 @@
     </path>
     <target name="gritar">
     	<echo message="Hello, world"/>
+    	<javac srcdir="." destdir="build/classes"/>
     </target>
               	    
     <target name="init">
