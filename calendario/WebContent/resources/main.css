@@ -1,0 +1,103 @@
+@CHARSET "ISO-8859-1";
+
+body{
+	background-color:black;
+}
+
+.panelLeft{
+	position: absolute;
+	width: 20%;
+	height: 90%;
+	border: 2px;
+	border-color: rgba(255, 255, 255, 0.64);
+	border-style: solid;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	top: 5%;
+	left:30px;
+}
+
+.panelCenter{
+	position: absolute;
+	width: 75%;
+	height: 75%;
+	border: 2px;
+	border-color: rgba(255, 255, 255, 0.64);
+	border-style: solid;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	top: 5%;
+	left: 22.8%;
+}
+
+.panelRight{
+	position: absolute;
+	width: 20%;
+	height: 90%;
+	border: 2px;
+	border-color: rgba(255, 255, 255, 0.64);
+	border-style: solid;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+	top: 5%;
+	left:74%;
+}
+
+table.calendarioTable {
+  	border-collapse:collapse; 
+  	line-height:2em; 
+  	width:100%;
+  	height:100%;
+}
+
+td.calendarioTable {
+  	border-collapse:collapse; 
+  	font-family:verdana, arial, sans-serif; 
+  	font-size:0.75em; 
+  	line-height:2em; 
+  	width:25%;
+  	height:33%;
+  	padding:5px 8px 5px 5px;
+  	
+}
+
+div.mes {
+	width: 100%;
+	height: 100%;
+	border: 2px;
+	border-color: rgba(255, 255, 255, 0.64);
+	border-style: solid;
+	border-radius: 5px 5px 5px 5px;
+	-moz-border-radius: 5px 5px 5px 5px;
+	-webkit-border-radius: 5px 5px 5px 5px;
+}
+
+table.calendarioTableIn{
+	border-collapse:collapse; 
+  	font-family:verdana, arial, sans-serif; 
+  	font-size:0.75em; 
+  	line-height:2em; 
+  	width:100%;
+  	height:100%;
+  	color: rgba(255, 255, 255, 0.80);
+  	
+}
+
+td.calendarioTableIn{
+	padding:5px 8px 5px 8px;
+}
+
+td.textoMes{
+	text-align: center;
+	color: rgba(255, 255, 255, 0.80);
+	font-size:1.5em;
+}
+
+td.marcasUsuarios{
+	height:1px;
+	width:3px;
+	padding:0px 0px 0px 0px;
+}
