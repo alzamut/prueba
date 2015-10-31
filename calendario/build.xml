@@ -37,7 +37,7 @@
     </path>
     <target name="gritar">
     	<echo message="Hello, world"/>
-    	<javac srcdir="." destdir="build/classes"/>
+    	<javac srcdir="." destdir="WebContent\WEB-INF\classes"/>
     </target>
               	    
    
