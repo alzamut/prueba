@@ -37,7 +37,18 @@
     </path>
     <target name="gritar">
     	<echo message="Hello, world"/>
-    	<javac srcdir="." destdir="WebContent\WEB-INF\classes"/>
+    	<war destfile = "calendario.war" webxml = "WebContent/WEB-INF/web.xml">
+
+    	   <fileset dir = "WebContent">
+    	      <include name = "**/*.*"/>
+    	   </fileset>
+    	   
+    	   <lib dir = "WebContent/WEB-INF/lib"/>
+    	     
+    	   
+    	   <classes dir = "WebContent/WEB-INF/classes"/>
+    	   
+    	</war>
     </target>
               	    
    
