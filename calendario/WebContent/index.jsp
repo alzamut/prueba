@@ -55,6 +55,28 @@
 									</table>	
 								</td>
 								<td class="calendarioTableIn">2</td>
+								<td>
+												<table>
+													<tr>
+														<td style="background-color: blue" class="marcasUsuarios"/> 
+													</tr>
+													<tr>
+														<td style="background-color: red" class="marcasUsuarios"/> 
+													</tr>
+													<tr>
+														<td style="background-color: white" class="marcasUsuarios"/> 
+													</tr>
+													<tr>
+														<td style="background-color: pink" class="marcasUsuarios"/> 
+													</tr>
+													<tr>
+														<td style="background-color: green" class="marcasUsuarios"/> 
+													</tr>
+													<tr>
+														<td style="background-color: yellow" class="marcasUsuarios"/> 
+													</tr>
+												</table>
+											</td>
 								<td class="calendarioTableIn">3</td>
 								<td class="calendarioTableIn">4</td>
 								<td class="calendarioTableIn">5</td>
