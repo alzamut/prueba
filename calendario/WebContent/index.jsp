@@ -54,8 +54,11 @@
 											</td>
 									</table>	
 								</td>
-								<td class="calendarioTableIn">2</td>
-								<td>
+								<td class="calendarioTableIn">
+									<table>
+										<tr>
+											<td>2</td>
+											<td>
 												<table>
 													<tr>
 														<td style="background-color: blue" class="marcasUsuarios"/> 
@@ -77,6 +80,8 @@
 													</tr>
 												</table>
 											</td>
+									</table>	
+								</td>
 								<td class="calendarioTableIn">3</td>
 								<td class="calendarioTableIn">4</td>
 								<td class="calendarioTableIn">5</td>
